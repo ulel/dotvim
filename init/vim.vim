@@ -1,3 +1,6 @@
+" Default to UTF-8 for encoding of files
+set encoding=utf8
+
 " 7 lines above or below when scrolling with j/k
 set so=7
 
@@ -30,6 +33,3 @@ if has("gui_running")
         set guifont=Anonymous\ Pro\ 10
     endif
 endif
-
-" Default to UTF-8 for encoding of files
-set encoding=utf8
