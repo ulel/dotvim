@@ -12,6 +12,9 @@ Plugin 'lsdr/monokai'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
+Plugin 'SirVer/ultisnips.git'
+Plugin 'honza/vim-snippets.git'
+Plugin 'Shougo/neocomplete.vim'
 
 filetype plugin indent on
 
