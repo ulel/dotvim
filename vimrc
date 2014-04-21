@@ -7,9 +7,11 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Plugin 'gmarik/vundle'
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'lsdr/monokai'
+
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
+Plugin 'kien/ctrlp.vim'
 
 filetype plugin indent on
 

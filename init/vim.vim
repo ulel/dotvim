@@ -27,12 +27,12 @@ if has("gui_running")
     set guioptions-=T
     set guioptions-=r
     set guioptions-=L
-    set guioptions+=e
+    set guioptions-=m
 
     " Look pretty
     set t_Co=256
     set background=dark
-    color solarized
+    color monokai
 
     if has("gui_win32")
         set guifont=Consolas:h9:cANSI
@@ -49,3 +49,6 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+
+" When joining with J do not add two spaces after punctuations
+set nojoinspaces
