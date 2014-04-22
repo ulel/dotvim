@@ -15,8 +15,8 @@ set wildmode=longest:full,full
 set relativenumber
 set number
 
-" 7 lines above or below when scrolling with j/k
-set so=7
+" Show 7 lines above or below cursor
+set scrolloff=7
 
 " Always show the status line
 :set laststatus=2
@@ -52,3 +52,15 @@ set expandtab
 
 " When joining with J do not add two spaces after punctuations
 set nojoinspaces
+
+set textwidth=80
+
+" Spell check defaults to American English
+set spelllang=en_us
+
+" Search as I type
+set incsearch
+
+" Use folding but have folds to a certain level open by default
+set foldenable
+set foldlevelstart=10

@@ -1,4 +1,3 @@
-set nocompatible
 filetype off
 syntax on
 
@@ -15,6 +14,11 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'SirVer/ultisnips.git'
 Plugin 'honza/vim-snippets.git'
 Plugin 'Shougo/neocomplete.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
+Plugin 'vim-pandoc/vim-pantondoc'
+Plugin 'vim-pandoc/vim-pandoc-syntax'
+Plugin 'vim-pandoc/vim-pandoc-after'
 
 filetype plugin indent on
 
