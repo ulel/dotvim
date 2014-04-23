@@ -64,3 +64,6 @@ set incsearch
 " Use folding but have folds to a certain level open by default
 set foldenable
 set foldlevelstart=10
+
+" Set leader to ,
+let mapleader=","
