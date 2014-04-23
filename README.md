@@ -1,12 +1,12 @@
 # My vimrc
 
-My previous vim configuration was full of settings and plugins that I did not
-even remember why I had them or what they were for. So I have decided to start
-a new one from scratch and add things as I feel something is missing or when
-something doesn't behave as I want.
+My previous vim configuration was full of settings and plugins that I didn't
+even remember why I had them. So I decided to start a new one from scratch and
+add things as I feel something is missing or when something doesn't behave as
+I want.
 
 The configuration is supposed to work on both Linux and for GVim running from
-an external hard drive on a Windows machine, but I haven't Windows
+an external hard drive on a Windows machine, but I haven't checked Windows
 compatibility completely yet. 
 
 I use [Vundle] for managing my plugins and the setup with separate
