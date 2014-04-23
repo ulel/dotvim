@@ -1,6 +1,9 @@
 filetype off
 syntax on
 
+" Set leader to ,
+let mapleader=","
+
 " Vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
