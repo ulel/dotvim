@@ -5,7 +5,29 @@ syntax on
 let mapleader=","
 
 " Vundle
-set rtp+=~/.vim/bundle/vundle/
+function AddBundleVundlePath()
+    let old_rtp = eval("&runtimepath")
+    let rp = split(old_rtp, ",")
+
+    if has("gui_win32")
+        let dir_sep = "\\"
+        let vimfiles = "vimfiles"
+    else
+        let dir_sep = "/"
+        let vimfiles = ".vim"
+    endif
+
+    for current_path in rp
+        let last_dir = split(current_path, dir_sep)[-1]
+        if last_dir == vimfiles
+            let bundle_vundle_path = current_path . dir_sep . "bundle/vundle"
+            let &runtimepath = bundle_vundle_path . "," . old_rtp
+            break
+        endif
+    endfor
+endfunction
+
+call AddBundleVundlePath()
 call vundle#rc()
 
 Plugin 'gmarik/vundle'
@@ -28,3 +50,4 @@ filetype plugin indent on
 
 " Source init files
 runtime! init/**.vim
+
