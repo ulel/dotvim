@@ -18,12 +18,30 @@ configuration files for different plugins is stolen from [fsprorus vimfiles].
 
  - Clone repository to ~/.vim
  - Copy ~/.vim/vimrc\_linker.vim to ~/.vimrc
+ - cd ~/.vim
+ - git submodule update --init
  - Start vim
  - :PluginInstall
 
-### Windows
+### Windows - for my portable setup
 
- - 
+You need to somehow set PATH before gvim starts to include directories that
+contain either python2 or python3, lua and git for all the plugins to work.
+Therefore you also need a gvim binary built with support for either python2 or
+python3 (or both) and lua. One such can be found at
+[http://tuxproject.de/projects/vim/]. What I do is that I msysgit portable on
+my drive and in their script to start a command shell I set the path to the
+other things I need and to gvim and then I use this to work from. The git
+portable can be downloaded at [msysgit - downloads].
+
+Then:
+
+ - Clone repository to vimfiles in the parent directory of gvim
+ - Copy .\\vimfiles\\vimrc\_linker.vim to .\\_vimrc
+ - cd vimfiles
+ - git submodule update --init
+ - Start vim
+ - :PluginInstall
 
 ## Inspiration
 
@@ -82,3 +100,6 @@ configuration files for different plugins is stolen from [fsprorus vimfiles].
 
 [gundo]: http://sjl.bitbucket.org/gundo.vim/
 [NerdCommenter]: https://github.com/scrooloose/nerdcommenter
+
+[http://tuxproject.de/projects/vim/]: http://tuxproject.de/projects/vim/
+[msysgit - downloads]: http://code.google.com/p/msysgit/downloads/list?can=1&q=portable&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount
