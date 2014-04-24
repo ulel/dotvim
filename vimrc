@@ -11,7 +11,7 @@ function AddBundleVundlePath()
 
     if has("gui_win32")
         let dir_sep = "\\"
-        let vimfiles = "vimfiles"
+        let vimfiles = "vim/vimfiles"
     else
         let dir_sep = "/"
         let vimfiles = ".vim"
@@ -20,7 +20,7 @@ function AddBundleVundlePath()
     for current_path in rp
         let last_dir = split(current_path, dir_sep)[-1]
         if last_dir == vimfiles
-            let bundle_vundle_path = current_path . dir_sep . "bundle/vundle"
+            let bundle_vundle_path = current_path . dir_sep . "bundle" . dir_sep . "vundle"
             let &runtimepath = bundle_vundle_path . "," . old_rtp
             break
         endif
