@@ -5,7 +5,7 @@ syntax on
 let mapleader=","
 
 " Vundle
-function AddBundleVundlePath()
+function InitVundle()
     let old_rtp = eval("&runtimepath")
     let rp = split(old_rtp, ",")
 
@@ -20,15 +20,16 @@ function AddBundleVundlePath()
     for current_path in rp
         let last_dir = split(current_path, dir_sep)[-1]
         if last_dir == vimfiles
-            let bundle_vundle_path = current_path . dir_sep . "bundle" . dir_sep . "vundle"
+            let bundle_path = current_path . dir_sep . "bundle"
+            let bundle_vundle_path = bundle_path . dir_sep . "vundle"
             let &runtimepath = bundle_vundle_path . "," . old_rtp
+            call vundle#rc(bundle_path)
             break
         endif
     endfor
 endfunction
 
-call AddBundleVundlePath()
-call vundle#rc()
+call InitVundle()
 
 Plugin 'gmarik/vundle'
 Plugin 'lsdr/monokai'
