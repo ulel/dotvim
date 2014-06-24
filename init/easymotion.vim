@@ -5,8 +5,8 @@ map <Leader> <Plug>(easymotion-prefix)
 let g:EasyMotion_startofline = 0
 
 " Use easymotion for searching for extra features
-map / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
-
-map n <Plug>(easymotion-next)
-map N <Plug>(easymotion-prev)
+" map / <Plug>(easymotion-sn)
+" omap / <Plug>(easymotion-tn)
+" 
+" map n <Plug>(easymotion-next)
+" map N <Plug>(easymotion-prev)
