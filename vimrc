@@ -46,6 +46,8 @@ Plugin 'vim-pandoc/vim-pantondoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'vim-pandoc/vim-pandoc-after'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'fatih/vim-go'
+Plugin 'godlygeek/tabular.git'
 
 filetype plugin indent on
 
