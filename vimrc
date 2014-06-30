@@ -32,7 +32,7 @@ endfunction
 call InitVundle()
 
 Plugin 'gmarik/vundle'
-Plugin 'lsdr/monokai'
+Plugin 'tomasr/molokai'
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'

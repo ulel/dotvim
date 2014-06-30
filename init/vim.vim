@@ -21,6 +21,11 @@ set scrolloff=7
 " Always show the status line
 :set laststatus=2
 
+" Look pretty
+set t_Co=256
+set background=dark
+color molokai
+
 " If we have a GUI make it a little nice
 if has("gui_running")
     " Remove some clutter
@@ -29,10 +34,6 @@ if has("gui_running")
     set guioptions-=L
     set guioptions-=m
 
-    " Look pretty
-    set t_Co=256
-    set background=dark
-    color monokai
 
     if has("gui_win32")
         set guifont=Consolas:h9:cANSI
@@ -64,3 +65,6 @@ set incsearch
 " Use folding but have folds to a certain level open by default
 set foldenable
 set foldlevelstart=10
+
+" For LaTeX projects
+set wildignore=*.pdf,*.aux,*.fdb_latexmk,*.fls,*.bbl,*.blg,*.dvi,*.bst,*.svg
