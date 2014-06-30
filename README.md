@@ -66,10 +66,13 @@ Then:
  - [Pandoc-syntax]
  - [Pandoc-after]
  - [EasyMotion]
+ - [Vim-go]
+ - [Tabular]
+
 
 ## Color Scheme
 
- - [Monokai]
+ - [Molokai]
 
 ## Things to test
 
@@ -82,7 +85,7 @@ Then:
 [nvie - How I Boosted My Vim]:http://nvie.com/posts/how-i-boosted-my-vim/
 [VIM Subreddit]: http://www.reddit.com/r/vim
 
-[Monokai]: https://github.com/lsdr/monokai
+[Molokai]: https://github.com/tomasr/molokai
 
 [Vundle]: https://github.com/gmarik/vundle
 [Fugitive]: https://github.com/tpope/vim-fugitive
@@ -97,6 +100,8 @@ Then:
 [Pandoc-syntax]: https://github.com/vim-pandoc/vim-pandoc-syntax
 [Pandoc-after]: https://github.com/vim-pandoc/vim-pandoc-after
 [EasyMotion]: https://github.com/Lokaltog/vim-easymotion
+[Vim-go]: https://github.com/fatih/vim-go
+[Tabular]: https://github.com/godlygeek/tabular.git
 
 [gundo]: http://sjl.bitbucket.org/gundo.vim/
 [NerdCommenter]: https://github.com/scrooloose/nerdcommenter
