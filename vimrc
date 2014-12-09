@@ -1,5 +1,5 @@
+set nocompatible
 filetype off
-syntax on
 
 " Set leader to ,
 let mapleader=","
@@ -50,6 +50,7 @@ Plugin 'fatih/vim-go'
 Plugin 'godlygeek/tabular.git'
 
 filetype plugin indent on
+syntax on
 
 " Source init files
 runtime! init/**.vim
