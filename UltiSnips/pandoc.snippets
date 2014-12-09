@@ -1,0 +1,18 @@
+extends pandoc
+
+snippet pheader "Pandoc Header" b
+---
+title: '$1'
+subtitle: '$2'
+author: 
+- name: Ulf Eliasson
+  affiliation: University of Somewhere
+abstract: |
+    $3
+documentclass: scrartcl
+...
+
+# $4
+$0
+endsnippet
+# vim:ft=snippets:
