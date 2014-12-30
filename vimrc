@@ -31,23 +31,39 @@ endfunction
 
 call InitVundle()
 
+" Plugins
 Plugin 'gmarik/vundle'
+
+"" Colorscheme
 Plugin 'tomasr/molokai'
 
-Plugin 'tpope/vim-fugitive'
+"" Main
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
+Plugin 'Shougo/neocomplete.vim'
 Plugin 'SirVer/ultisnips.git'
 Plugin 'honza/vim-snippets.git'
-Plugin 'Shougo/neocomplete.vim'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-repeat'
+Plugin 'rking/ag.vim'
+
+
+"" Languages
+Plugin 'fatih/vim-go'
+
 Plugin 'vim-pandoc/vim-pantondoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'vim-pandoc/vim-pandoc-after'
+
+"" Evaluating
+Plugin 'Shougo/unite.vim'
+
+"" Rarely used
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'fatih/vim-go'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-fugitive'
 Plugin 'godlygeek/tabular.git'
+
+"" Support
+Plugin 'tpope/vim-repeat'
 
 filetype plugin indent on
 syntax on
