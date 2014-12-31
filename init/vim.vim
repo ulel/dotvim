@@ -1,6 +1,9 @@
 " Default to UTF-8 for encoding of files
 set encoding=utf8
 
+" Store a little bit more history
+set history=1000
+
 " Turn off annoying sounds and flashing
 set noerrorbells
 set novisualbell
@@ -50,6 +53,9 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+
+" Indent automatically
+set autoindent
 
 " When joining with J do not add two spaces after punctuations
 set nojoinspaces
