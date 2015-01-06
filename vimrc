@@ -53,6 +53,8 @@ Plugin 'vim-pandoc/vim-pantondoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'vim-pandoc/vim-pandoc-after'
 
+Plugin 'wting/rust.vim'
+
 "" Evaluating
 Plugin 'Shougo/unite.vim'
 
