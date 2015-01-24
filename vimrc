@@ -55,6 +55,9 @@ Plugin 'vim-pandoc/vim-pandoc-after'
 
 Plugin 'wting/rust.vim'
 
+Plugin 'jplaut/vim-arduino-ino'
+Plugin 'sudar/vim-arduino-syntax'
+
 "" Evaluating
 Plugin 'Shougo/unite.vim'
 
