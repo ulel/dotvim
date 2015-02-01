@@ -36,6 +36,7 @@ Plugin 'gmarik/vundle'
 
 "" Colorscheme
 Plugin 'tomasr/molokai'
+Plugin 'altercation/vim-colors-solarized'
 
 "" Main
 Plugin 'bling/vim-airline'

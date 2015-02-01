@@ -27,7 +27,7 @@ set scrolloff=7
 " Look pretty
 set t_Co=256
 set background=dark
-color molokai
+color solarized
 
 " If we have a GUI make it a little nice
 if has("gui_running")
