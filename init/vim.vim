@@ -48,6 +48,9 @@ endif
 " Read modified files automatically
 set autoread
 
+" Backspace should work like I want
+set backspace=indent,eol,start
+
 " Space not tabs, 4 in width
 set tabstop=4
 set softtabstop=4
