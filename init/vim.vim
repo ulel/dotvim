@@ -76,4 +76,11 @@ set foldenable
 set foldlevelstart=10
 
 " For LaTeX projects
-set wildignore=*.pdf,*.aux,*.fdb_latexmk,*.fls,*.bbl,*.blg,*.dvi,*.bst,*.svg
+set wildignore=*.pdf,*.aux,*.fdb_latexmk,*.fls,*.bbl,*.blg,*.dvi,*.bst,*.svg,*.pptx,*.out
+
+" Split below and to the right seems more natural
+set splitbelow
+set splitright
+
+" Fix some filetype detections
+au BufNewFile,BufRead *.tex set filetype=tex
