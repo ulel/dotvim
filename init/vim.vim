@@ -84,3 +84,7 @@ set splitright
 
 " Fix some filetype detections
 au BufNewFile,BufRead *.tex set filetype=tex
+
+" Keybindings
+vmap Enter <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
